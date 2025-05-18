@@ -1,0 +1,12 @@
+{
+  "name": "cody-cli-integration",
+  "version": "1.0.0",
+  "dependencies": {
+    "@sourcegraph/cody": "^1.2.3",
+    "@sourcegraph/cody-cli": "^0.8.0"
+  },
+  "scripts": {
+    "start": "cody",
+    "build": "cody build"
+  }
+}

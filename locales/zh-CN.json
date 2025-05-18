@@ -1,0 +1,43 @@
+{
+  "cli.pattern.path": "路径",
+  "cli.pattern.pr_number": "PR编号",
+  "cli.pattern.pr_id": "编号",
+  "cli.pattern.board": "板型",
+  "cli.pattern.qa_prefix": "智能问答|知识查询",  
+  "cli": {
+    "error": {
+      "command_failed": "命令执行失败: {error}",
+      "general": "发生错误: {error}",
+      "prefix": "错误: ",
+      "repo_clone_failed": "仓库克隆失败：{error}",
+      "pr_switch_failed": "PR切换失败：{error}",
+      "network_issue": "网络连接异常",
+      "invalid_pr": "无效的PR编号：{number}",
+      "uncommitted_changes": "检测到未提交的更改"
+    },
+    "help": {
+      "init_env": "初始化Zephyr开发环境",
+      "clone_repo": "克隆Zephyr仓库",
+      "switch_pr": "切换指定PR编号",
+      "compile": "编译Zephyr项目",
+      "run_tests": "执行Twister测试",
+      "additional_args": "附加Twister测试参数"
+    },
+    "pattern": {
+      "init_env": "(初始化|设置).*环境",
+      "clone_repo": "(克隆|下载).*仓库",
+      "switch_pr": "切换.*PR|拉取请求",
+      "compile": "编译.*项目",
+      "run_tests": "运行测试|执行测试"
+    },
+    "prompt": {
+      "query": "请输入查询内容: ",
+      "interactive": "Cody> "
+    },
+    "installing_dependencies": "正在安装依赖...",
+    "env_ready": "环境准备就绪",
+    "repo_cloned": "仓库已克隆到 {path}",
+    "pr_switched": "已切换到PR #{number}",
+    "build_complete": "编译完成"
+  }
+}

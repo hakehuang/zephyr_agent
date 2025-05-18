@@ -1,0 +1,27 @@
+msgid ""
+msgstr ""
+"Language: zh\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+# CLI patterns
+msgid "cli.pattern.env_init"
+msgstr "环境初始化|初始化环境"
+
+msgid "cli.pattern.set_path"
+msgstr "设置工作路径|指定工作目录"
+
+msgid "cli.pattern.clone_repo"
+msgstr "克隆仓库|下载仓库"
+
+# Error messages
+msgid "cli.error.missing_tools"
+msgstr "缺失必要工具或依赖: {missing}"
+
+msgid "cli.error.test_failure"
+msgstr "测试执行失败：{error}"
+
+msgid "cli.error.no_tests_found"
+msgstr "未找到匹配的测试用例，请检查测试路径配置"
+
+msgid "cli.error.compile_failed"
+msgstr "编译失败，请检查板型配置和代码变更"

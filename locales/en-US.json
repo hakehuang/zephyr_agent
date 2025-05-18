@@ -1,0 +1,42 @@
+{
+  "cli.pattern.path": "path",
+  "cli.pattern.pr_number": "PR number", 
+  "cli.pattern.pr_id": "ID",
+  "cli.pattern.board": "board",
+  "cli.pattern.qa_prefix": "QA",
+  "cli": {
+    "error": {
+      "command_failed": "Command execution failed: {error}",
+      "general": "Error occurred: {error}",
+      "prefix": "Error: ",
+      "repo_clone_failed": "Repository clone failed: {error}",
+      "pr_switch_failed": "PR switch failed: {error}",
+      "network_issue": "Network connection error",
+      "invalid_pr": "Invalid PR number: {number}",
+      "uncommitted_changes": "Uncommitted changes detected"
+    },
+    "help": {
+      "init_env": "Initialize Zephyr development environment",
+      "clone_repo": "Clone Zephyr repository",
+      "switch_pr": "Switch to specified PR number",
+      "compile": "Compile Zephyr project",
+      "run_tests": "Execute Twister tests",
+      "additional_args": "Additional Twister test arguments"
+    },
+    "pattern": {
+      "init_env": "(initialize|setup).*environment",
+      "clone_repo": "(clone|download).*repository",
+      "switch_pr": "switch.*PR|pull request",
+      "compile": "compile.*project",
+      "run_tests": "run tests|execute tests"
+    },
+    "prompt": {
+      "query": "Please enter your query: ",
+      "interactive": "Cody> "
+    },
+    "env_ready": "Environment ready",
+    "repo_cloned": "Repository cloned to {path}",
+    "pr_switched": "Switched to PR #{number}",
+    "build_complete": "Build completed"
+  }
+}

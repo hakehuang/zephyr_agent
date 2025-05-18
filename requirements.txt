@@ -1,0 +1,6 @@
+redis
+langchain
+openai
+python-dotenv
+requests>=2.31.0
+langchain-core==0.1.53
